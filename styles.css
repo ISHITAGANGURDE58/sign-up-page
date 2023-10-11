@@ -1,0 +1,149 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background color for the whole page */
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-pane {
+    width: 25%;
+    background-color: #252525; /* Darker background for left pane */
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-chat-button {
+    width: 80%;
+    background-color:#252525;/* Blue color for the button */
+    color: #ffffff; /* White text color */
+    border: 1px solid gray; 
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hide-left-pane-button {
+    width: 25px;
+    background: none;
+    border: 1px solid gray; 
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff; /* White icon color */
+    height: 30PX;
+}
+
+
+.right-pane {
+    width: 75%;
+    padding: 20px;
+    position: relative;
+    background-color:#59595e; /* Dark background for right pane */
+}
+
+.top-buttons {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align the buttons */
+    border-radius: 5px;
+    
+}
+
+.floating-button {
+    margin: 0 10px;
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid;
+    width: 25%;
+    box-shadow: 0px 1px 5px gray;
+    box-sizing: border-box;
+
+}
+.message-display {
+    height: 60;
+    overflow-y: scroll;
+    border: 1px solid #59595e;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #59595e;
+} 
+
+.bottom-input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#59595e; /* Darker background for input area */
+    padding: 10px;
+    top: 500px; 
+
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+    border: none;
+    width: 20px;
+    height: 30px;
+    background-color: rgb(73, 72, 72);
+    
+}
+
+.send-button {
+    background-color: #0c6c39; /* Blue color for the button */
+    color: #ffffff; /* White text color */
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+/* Add any additional CSS styles as needed */
+    
+h1{
+    font-weight: bold;
+    font-size: 60PX;
+    color: rgb(72, 67, 67);
+    text-align: center;
+    opacity: 1;/*Initially visible*/
+    transition: opacity 0.5 ease-in-out;
+    margin-bottom: 70px;
+}
+button1{
+    background-color:rgb(69, 66, 66);
+}
+    button2{
+        background-color:grey;
+    }
+    
+   
+    
+    
+    
+    
+    
+    
+
